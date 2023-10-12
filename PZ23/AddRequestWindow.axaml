@@ -1,0 +1,26 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PZ23.AddRequestWindow"
+        Title="AddRequest">
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center">Дата добавления</TextBlock>
+        <TextBox Name="DateTextBox" Width="150"/>
+        <TextBlock HorizontalAlignment="Center">Тип оборудования</TextBlock>
+        <TextBox Name="EquipmentTextBox" Width="150"/>
+        <TextBlock HorizontalAlignment="Center">Тип неисправности</TextBlock>
+        <TextBox Name="DefectTextBox" Width="150"/>
+        <TextBlock HorizontalAlignment="Center">Клиент</TextBlock>
+        <TextBox Name="ClientTextBox" Width="150"/>
+        <TextBlock HorizontalAlignment="Center">Сотрудник</TextBlock>
+        <TextBox Name="EmployeeTextBox" Width="150"/>
+        <TextBlock HorizontalAlignment="Center">Статус заявки</TextBlock>
+        <TextBox Name="RequestStatusTextBox" Width="150" HorizontalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center">Описание проблемы</TextBlock>
+        <TextBox Name="ProblemDescriptionTextBox" Width="150"/>
+        <Button Content="Добавить заявку" HorizontalAlignment="Center" Margin="0 10 0 0" Click="AddRequestOnClick"/>
+        <Button Content="На главную" HorizontalAlignment="Center" Margin="0 10 0 0" Click="BackOnClick"/>
+    </StackPanel>
+</Window>

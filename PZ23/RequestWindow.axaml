@@ -1,0 +1,24 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PZ23.RequestWindow"
+        Title="Все заявки"
+        Background="Pink">
+   <Grid>
+       <DataGrid Name="RequestDataGrid" x:CompileBindings="False">
+           <DataGrid.Columns>
+               <DataGridTextColumn Header="ID" Binding="{Binding RequestID}"/>
+               <DataGridTextColumn Header="Дата добавления" Binding="{Binding DateAdded}"/>
+               <DataGridTextColumn Header="Тип оборудования" Binding="{Binding Equipment}"/>
+               <DataGridTextColumn Header="Тип неисправности" Binding="{Binding Defect}"/>
+               <DataGridTextColumn Header="Клиент" Binding="{Binding Client}"/>
+               <DataGridTextColumn Header="Сотрудник" Binding="{Binding Employee}"/>
+               <DataGridTextColumn Header="Статус заявки" Binding="{Binding RequestStatus}"/>
+               <DataGridTextColumn Header="Описание проблемы" Binding="{Binding ProblemDescription}"/>
+           </DataGrid.Columns>
+       </DataGrid>
+       <Button Content="На главную" Click="MainWindowOnClick"/>
+   </Grid>
+</Window>

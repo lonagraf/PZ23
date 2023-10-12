@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="PZ23/AddRequest.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/AddRequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/App.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/MainWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Request.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/RequestWindow.axaml" value="PZ23/PZ23.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
