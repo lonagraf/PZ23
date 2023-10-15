@@ -60,6 +60,7 @@
 
 
 # Объекты БД
-![image](https://github.com/lonagraf/PZ23/assets/122952983/b615f3b6-fb89-4342-8822-ba001b54750b)
+![image](https://github.com/lonagraf/PZ23/assets/122952983/9eb6ede4-2233-45e8-b274-f2a7782773fd)
+
 
 
