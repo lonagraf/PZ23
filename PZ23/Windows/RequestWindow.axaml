@@ -7,14 +7,16 @@
         Title="Все заявки"
         Background="Pink">
    <Grid>
-       <DataGrid Name="RequestDataGrid" x:CompileBindings="False">
+       <Menu VerticalAlignment="Top" Height="25" >
+           <MenuItem Header="Edit" Click="MenuItem_OnClick"/>
+       </Menu>
+       <DataGrid Name="RequestDataGrid" x:CompileBindings="False" Margin="0 25 0 0">
            <DataGrid.Columns>
                <DataGridTextColumn Header="ID" Binding="{Binding RequestID}"/>
                <DataGridTextColumn Header="Дата добавления" Binding="{Binding DateAdded}"/>
                <DataGridTextColumn Header="Тип оборудования" Binding="{Binding Equipment}"/>
                <DataGridTextColumn Header="Тип неисправности" Binding="{Binding Defect}"/>
                <DataGridTextColumn Header="Клиент" Binding="{Binding Client}"/>
-               <DataGridTextColumn Header="Сотрудник" Binding="{Binding Employee}"/>
                <DataGridTextColumn Header="Статус заявки" Binding="{Binding RequestStatus}"/>
                <DataGridTextColumn Header="Описание проблемы" Binding="{Binding ProblemDescription}"/>
            </DataGrid.Columns>

@@ -14,8 +14,6 @@
         <TextBox Name="DefectTextBox" Width="150"/>
         <TextBlock HorizontalAlignment="Center">Клиент</TextBlock>
         <TextBox Name="ClientTextBox" Width="150"/>
-        <TextBlock HorizontalAlignment="Center">Сотрудник</TextBlock>
-        <TextBox Name="EmployeeTextBox" Width="150"/>
         <TextBlock HorizontalAlignment="Center">Статус заявки</TextBlock>
         <TextBox Name="RequestStatusTextBox" Width="150" HorizontalAlignment="Center"/>
         <TextBlock HorizontalAlignment="Center">Описание проблемы</TextBlock>

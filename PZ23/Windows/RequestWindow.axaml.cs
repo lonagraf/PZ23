@@ -6,6 +6,7 @@ using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using MySql.Data.MySqlClient;
+using PZ23.Windows;
 
 namespace PZ23;
 
@@ -14,14 +15,13 @@ public partial class RequestWindow : Window
     private Database database = new Database();
 
     private List<Request> _requests;
-    
+
     public string fullTable =
-        "select RequestID, DateAdded, EquipmentName, DefectName, ProblemDescription, ClientName, StatusName, EmployeeName from pro1_4.request " +
-        "join pro1_4.equipmenttype on request.Equipment = equipmenttype.EquipmentTypeID " +
-        "join pro1_4.defecttype on request.Defect= defecttype.DefectTypeID " +
-        "join pro1_4.client on request.Client = client.ClientID " +
-        "join pro1_4.requeststatus on request.RequestStatus = requeststatus.RequestStatusID " +
-        "join pro1_4.employee on request.Employee = employee.EmployeeID;";
+        "select RequestID, DateAdded, EquipmentName, DefectName, ProblemDescription, ClientName, StatusName from request " +
+        "join pro1_4.equipment_type et on request.Equipment = et.EquipmentTypeID " +
+        "join pro1_4.defect_type dt on request.Defect = dt.DefectTypeID " +
+        "join pro1_4.client c on request.Client = c.ClientID " +
+        "join pro1_4.request_status rs on request.RequestStatus = rs.RequestStatusID;";
     
     public RequestWindow()
     {
@@ -48,7 +48,6 @@ public partial class RequestWindow : Window
                     ProblemDescription = reader.GetString("ProblemDescription"),
                     Client = reader.GetString("ClientName"),
                     RequestStatus = reader.GetString("StatusName"),
-                    Employee = reader.GetString("EmployeeName")
                 };
                     _requests.Add(currentRequest);
             }
@@ -66,5 +65,22 @@ public partial class RequestWindow : Window
         MainWindow mainWindow = new MainWindow();
         this.Hide();
         mainWindow.Show();
+    }
+
+    private void MenuItem_OnClick(object? sender, RoutedEventArgs e)
+    {
+        Request selectedRequest = RequestDataGrid.SelectedItem as Request;
+        if (selectedRequest != null)
+        {
+            EditRequestWindow editRequestWindow = new EditRequestWindow(selectedRequest);
+            this.Hide();
+            editRequestWindow.Show();
+            ShowTable(fullTable);
+        }
+        else
+        {
+            Console.WriteLine("Выберите строку для редактирования!!!");
+        }
+
     }
 }

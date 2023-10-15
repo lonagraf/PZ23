@@ -5,10 +5,17 @@
       <map>
         <entry key="PZ23/AddRequest.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/AddRequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/AdminWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/App.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/MainWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Request.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/RequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/UserWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/AddRequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/AdminWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/EditRequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/RepairWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/RequestWindow.axaml" value="PZ23/PZ23.csproj" />
       </map>
     </option>
   </component>

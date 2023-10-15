@@ -1,0 +1,21 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PZ23.Windows.RepairWindow"
+        Title="RepairWindow">
+    <Grid>
+        <DataGrid Name="RepairDataGrid" x:CompileBindings="False" Margin="0 25 0 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding RepairID}"/>
+                <DataGridTextColumn Header="Заявка" Binding="{Binding Request}"/>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding Cost}"/>
+                <DataGridTextColumn Header="Дата начала" Binding="{Binding DateStart}"/>
+                <DataGridTextColumn Header="Дата окончания" Binding="{Binding DateEnd}"/>
+                <DataGridTextColumn Header="Материалы" Binding="{Binding Materials}"/>
+                <DataGridTextColumn Header="Причина неисправности" Binding="{Binding DefectCause}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

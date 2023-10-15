@@ -10,5 +10,4 @@ public class Request
     public string ProblemDescription { get; set; }
     public string Client { get; set; }
     public string RequestStatus { get; set; }
-    public string Employee { get; set; }
 }

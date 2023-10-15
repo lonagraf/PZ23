@@ -20,19 +20,17 @@ public partial class AddRequestWindow : Window
         string equipment = EquipmentTextBox.Text;
         string defect = DefectTextBox.Text;
         string client = ClientTextBox.Text;
-        string employee = EmployeeTextBox.Text;
         string requestStatus = RequestStatusTextBox.Text;
         string problemDescription = ProblemDescriptionTextBox.Text;
         database.openConnection();
         string sql =
-            "insert into request (DateAdded, Equipment, Defect, Client, Employee, RequestStatus, ProblemDescription) " +
-            "values (@DateAdded, @Equipment, @Defect, @Client, @Employee, @RequestStatus, @ProblemDescription);";
+            "insert into request (DateAdded, Equipment, Defect, Client, RequestStatus, ProblemDescription) " +
+            "values (@DateAdded, @Equipment, @Defect, @Client, @RequestStatus, @ProblemDescription);";
         MySqlCommand command = new MySqlCommand(sql, database.getConnection());
         command.Parameters.AddWithValue("@DateAdded",dateAdded);
         command.Parameters.AddWithValue("@Equipment",equipment);
         command.Parameters.AddWithValue("@Defect",defect);
         command.Parameters.AddWithValue("@Client",client);
-        command.Parameters.AddWithValue("@Employee",employee);
         command.Parameters.AddWithValue("@RequestStatus",requestStatus);
         command.Parameters.AddWithValue("ProblemDescription",problemDescription);
         command.ExecuteNonQuery();
