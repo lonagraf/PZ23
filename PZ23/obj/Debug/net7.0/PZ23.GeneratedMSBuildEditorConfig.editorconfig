@@ -13,28 +13,28 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PZ23
-build_property.ProjectDir = C:\Users\lonah\RiderProjects\PZ23\PZ23\
+build_property.ProjectDir = /home/student/RiderProjects/PZ23/PZ23/
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/App.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/AddRequestWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/AddRequestWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/AdminWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/AdminWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/EditRequestWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/EditRequestWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/MainWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/RepairWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/RepairWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/RequestWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/RequestWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23/PZ23/Windows/UserWindow.axaml]
+[/home/student/RiderProjects/PZ23/PZ23/Windows/UserWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

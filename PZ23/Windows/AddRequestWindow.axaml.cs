@@ -24,7 +24,7 @@ public partial class AddRequestWindow : Window
         string problemDescription = ProblemDescriptionTextBox.Text;
         database.openConnection();
         string sql =
-            "insert into request (DateAdded, Equipment, Defect, Client, RequestStatus, ProblemDescription) " +
+            "insert into Request (DateAdded, Equipment, Defect, Client, RequestStatus, ProblemDescription) " +
             "values (@DateAdded, @Equipment, @Defect, @Client, @RequestStatus, @ProblemDescription);";
         MySqlCommand command = new MySqlCommand(sql, database.getConnection());
         command.Parameters.AddWithValue("@DateAdded",dateAdded);

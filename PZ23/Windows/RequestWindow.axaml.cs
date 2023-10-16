@@ -17,11 +17,11 @@ public partial class RequestWindow : Window
     private List<Request> _requests;
 
     public string fullTable =
-        "select RequestID, DateAdded, EquipmentName, DefectName, ProblemDescription, ClientName, StatusName from request " +
-        "join pro1_4.equipment_type et on request.Equipment = et.EquipmentTypeID " +
-        "join pro1_4.defect_type dt on request.Defect = dt.DefectTypeID " +
-        "join pro1_4.client c on request.Client = c.ClientID " +
-        "join pro1_4.request_status rs on request.RequestStatus = rs.RequestStatusID;";
+        "select RequestID, DateAdded, EquipmentName, DefectName, ProblemDescription, ClientName, StatusName from pro1_14.Request " +
+        "join pro1_14.EquipmentType et on Request.Equipment = et.EquipmentTypeID " +
+        "join pro1_14.DefectType dt on Request.Defect = dt.DefectTypeID " +
+        "join pro1_14.Client c on Request.Client = c.ClientID " +
+        "join pro1_14.RequestStatus rs on Request.RequestStatus = rs.RequestStatusID;";
     
     public RequestWindow()
     {

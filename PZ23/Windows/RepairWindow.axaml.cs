@@ -13,9 +13,8 @@ public partial class RepairWindow : Window
     private List<Repair> _repairs;
 
     public string fullTable =
-        "select RepairID, RequestID, DateStart, DateEnd, Cost, MaterialsName, DefectCause from repair " +
-        "join pro1_4.materials m on m.MaterialsID = repair.Materials " +
-        "join pro1_4.request r on r.RequestID = repair.Request;";
+        "select RepairID, DateStart, DateEnd, Cost, MaterialsName, DefectCause from pro1_14.Repair " +
+        "join pro1_14.Materials m on m.MaterialsID = Repair.Materials;";
 
     public RepairWindow()
     {
