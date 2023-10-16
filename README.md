@@ -51,12 +51,14 @@
 <h3>3.2 СУБД: MySQL</h3>
 
 # ER-диаграмма
-![image](https://github.com/lonagraf/PZ23/assets/122952983/2aa300c3-9ae8-469a-8bde-fe9f88000300)
+![image](https://github.com/lonagraf/PZ23/assets/122952983/cdad8248-060a-4ef3-9f0c-b91feb5c20fa)
+
 
 
 
 # Объекты БД
-![image](https://github.com/lonagraf/PZ23/assets/122952983/a28ba085-0216-48e6-a4c5-2ca176d6b15e)
+![image](https://github.com/lonagraf/PZ23/assets/122952983/b5b8bed8-f223-49ae-840b-bf0c498ac223)
+
 
 
 
