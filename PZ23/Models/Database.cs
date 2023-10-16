@@ -6,7 +6,7 @@ namespace PZ23;
 public class Database
 {
     
-    private MySqlConnection _connection = new MySqlConnection(@"server=10.10.1.24;database=pro1_14;port=3306;User Id=user_01;password=user01pro"); //подключение к БД
+    private MySqlConnection _connection = new MySqlConnection(@"server=localhost;database=pro1_4;port=3306;User Id=root;password=IGraf123*"); //подключение к БД
 
     public void openConnection() //открывает подключение
     {

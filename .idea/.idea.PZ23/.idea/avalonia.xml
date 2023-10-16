@@ -14,6 +14,8 @@
         <entry key="PZ23/Windows/AddRequestWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/AdminWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/EditRequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/MainWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/MessageBox.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/RepairWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/RequestWindow.axaml" value="PZ23/PZ23.csproj" />
       </map>

@@ -13,6 +13,8 @@ public partial class EditRequestWindow : Window
     private Request _request;
     public EditRequestWindow(Request request)
     {
+        Width = 300;
+        Height = 300;
         _request = request;
         InitializeComponent();
         RequestStatusTextBox.Text = _request.RequestStatus;
@@ -28,7 +30,7 @@ public partial class EditRequestWindow : Window
             int id = _request.RequestID;
             database.openConnection();
             string sql =
-                "update pro1_14.Request set RequestStatus = @RequestStatus, ProblemDescription = @ProblemDescription where RequestID = @Id";
+                "update pro1_4.Request set RequestStatus = @RequestStatus, ProblemDescription = @ProblemDescription where RequestID = @Id";
             MySqlCommand command = new MySqlCommand(sql, database.getConnection());
             command.Parameters.AddWithValue("@RequestStatus", requestStatus);
             command.Parameters.AddWithValue("@ProblemDescription", problemDescription);

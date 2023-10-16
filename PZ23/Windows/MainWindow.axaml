@@ -8,6 +8,7 @@
         Background="Pink">
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
     <ComboBox Name="AuthCmb" Width="150" Margin="0 0 0 10"/>
+    <TextBox Name="AuthTxt" Width="150" Margin="0 0 0 10" />
     <Button Name="AuthBtn" Content="Вход"  Width="150" Height="27" Click="AuthBtn_OnClick"/>
     </StackPanel>
 </Window>

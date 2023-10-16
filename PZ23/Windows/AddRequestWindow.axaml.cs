@@ -12,6 +12,9 @@ public partial class AddRequestWindow : Window
     public AddRequestWindow()
     {
         InitializeComponent();
+        Width = 300;
+        Height = 450;
+        
     }
 
     private void AddRequestOnClick(object? sender, RoutedEventArgs e)

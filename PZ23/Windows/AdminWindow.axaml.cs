@@ -11,6 +11,9 @@ public partial class AdminWindow : RequestWindow
     public AdminWindow()
     {
         InitializeComponent();
+        Width = 300;
+        Height = 300;
+        Icon = new WindowIcon("icons/user.png");
     }
 
     private void AddRequestOnClick(object? sender, RoutedEventArgs e)
