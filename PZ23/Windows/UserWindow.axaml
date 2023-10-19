@@ -4,9 +4,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PZ23.UserWindow"
-        Title="UserWindow"
-        Background="Pink">
+        Title="Пользователь"
+        >
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Button Content="Добавить заявку" Width="150" Background="White" Click="Button_OnClick"/>
+        <Button Content="Добавить заявку" Width="150" Background="Lavender" Click="Button_OnClick"/>
     </StackPanel>
 </Window>

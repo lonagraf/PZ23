@@ -1,8 +1,9 @@
 ﻿namespace PZ23;
 
-public class Repair
+public class Report
 {
-    public int RepairID { get; set; }
+    public int ReportID { get; set; }
+    public int Request { get; set; }
     public string DateStart { get; set; }
     public string DateEnd { get; set; }
     public double Cost { get; set; }

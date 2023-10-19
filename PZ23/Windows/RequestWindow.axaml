@@ -4,11 +4,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PZ23.RequestWindow"
-        Title="Все заявки"
-        Background="Pink">
+        Title="Заявки"
+        >
    <Grid>
        <Menu VerticalAlignment="Top" Height="25" >
-           <MenuItem Header="Edit" Click="MenuItem_OnClick"/>
+           <MenuItem Header="Редактировать" Click="MenuItem_OnClick"/>
+           <TextBlock>Поиск по номеру заявки: </TextBlock>
+           <TextBox Name="txtSearch" Width="50" TextChanged="TxtSearch_OnTextChanged"/>
        </Menu>
        <DataGrid Name="RequestDataGrid" x:CompileBindings="False" Margin="0 25 0 0">
            <DataGrid.Columns>
@@ -17,10 +19,12 @@
                <DataGridTextColumn Header="Тип оборудования" Binding="{Binding Equipment}"/>
                <DataGridTextColumn Header="Тип неисправности" Binding="{Binding Defect}"/>
                <DataGridTextColumn Header="Клиент" Binding="{Binding Client}"/>
+               <DataGridTextColumn Header="Сотрудник" Binding="{Binding Employee}"/>
                <DataGridTextColumn Header="Статус заявки" Binding="{Binding RequestStatus}"/>
+               <DataGridTextColumn Header="Приоритет заявки" Binding="{Binding Priority}"/>
                <DataGridTextColumn Header="Описание проблемы" Binding="{Binding ProblemDescription}"/>
            </DataGrid.Columns>
        </DataGrid>
-       <Button Content="На главную" Click="MainWindowOnClick"/>
+       <Button Content="На главную" Click="MainWindowOnClick" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="Lavender"/>
    </Grid>
 </Window>

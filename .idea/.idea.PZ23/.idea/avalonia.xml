@@ -17,7 +17,10 @@
         <entry key="PZ23/Windows/MainWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/MessageBox.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/RepairWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/ReportWindow.axaml" value="PZ23/PZ23.csproj" />
         <entry key="PZ23/Windows/RequestWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/StatisticsWindow.axaml" value="PZ23/PZ23.csproj" />
+        <entry key="PZ23/Windows/UserWindow.axaml" value="PZ23/PZ23.csproj" />
       </map>
     </option>
   </component>

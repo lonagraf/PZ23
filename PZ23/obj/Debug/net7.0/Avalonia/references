@@ -22,11 +22,14 @@ C:\Users\lonah\.nuget\packages\avalonia.themes.simple\11.0.2\lib\net6.0\Avalonia
 C:\Users\lonah\.nuget\packages\avalonia.win32\11.0.2\lib\net6.0\Avalonia.Win32.dll
 C:\Users\lonah\.nuget\packages\avalonia.x11\11.0.2\lib\net6.0\Avalonia.X11.dll
 C:\Users\lonah\.nuget\packages\portable.bouncycastle\1.9.0\lib\netstandard2.0\BouncyCastle.Crypto.dll
+C:\Users\lonah\.nuget\packages\colortextblock.avalonia\11.0.0-d1\lib\net6.0\ColorTextBlock.Avalonia.dll
+C:\Users\lonah\.nuget\packages\dialoghost.avalonia\0.7.6\lib\netstandard2.0\DialogHost.Avalonia.dll
 C:\Users\lonah\.nuget\packages\google.protobuf\3.21.9\lib\net5.0\Google.Protobuf.dll
 C:\Users\lonah\.nuget\packages\harfbuzzsharp\2.8.2.3\lib\net6.0\HarfBuzzSharp.dll
 C:\Users\lonah\.nuget\packages\k4os.compression.lz4\1.3.5\lib\net6.0\K4os.Compression.LZ4.dll
 C:\Users\lonah\.nuget\packages\k4os.compression.lz4.streams\1.3.5\lib\net6.0\K4os.Compression.LZ4.Streams.dll
 C:\Users\lonah\.nuget\packages\k4os.hash.xxhash\1.0.8\lib\net6.0\K4os.Hash.xxHash.dll
+C:\Users\lonah\.nuget\packages\markdown.avalonia.tight\11.0.0-d1\lib\net6.0\Markdown.Avalonia.dll
 C:\Users\lonah\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Users\lonah\.nuget\packages\microsoft.codeanalysis.csharp\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\lonah\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.8.0\lib\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Scripting.dll
@@ -38,6 +41,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\Microso
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\Microsoft.Win32.Primitives.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\Microsoft.Win32.Registry.dll
 C:\Users\lonah\.nuget\packages\microsoft.win32.systemevents\6.0.0\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\lonah\.nuget\packages\messagebox.avalonia\3.1.3\lib\netstandard2.0\MsBox.Avalonia.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\mscorlib.dll
 C:\Users\lonah\.nuget\packages\mysql.data\8.1.0\lib\net7.0\MySql.Data.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\netstandard.dll
@@ -125,6 +129,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.Numerics.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.Numerics.Vectors.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.ObjectModel.dll
+C:\Users\lonah\.nuget\packages\system.reactive\6.0.0\lib\net6.0\System.Reactive.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.Reflection.DispatchProxy.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.Reflection.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\7.0.9\ref\net7.0\System.Reflection.Emit.dll

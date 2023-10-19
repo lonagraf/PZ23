@@ -32,10 +32,17 @@ public partial class AdminWindow : RequestWindow
         requestWindow.Show();
     }
 
-    private void Button_OnClick(object? sender, RoutedEventArgs e)
+    private void ReportOnClick(object? sender, RoutedEventArgs e)
     {
-        RepairWindow repairWindow = new RepairWindow();
+        ReportWindow repairWindow = new ReportWindow();
         this.Hide();
         repairWindow.Show();
+    }
+
+    private void StatisticsOnClick(object? sender, RoutedEventArgs e)
+    {
+        StatisticsWindow statisticsWindow = new StatisticsWindow();
+        this.Hide();
+        statisticsWindow.Show();
     }
 }

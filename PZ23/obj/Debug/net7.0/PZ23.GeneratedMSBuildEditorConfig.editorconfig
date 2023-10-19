@@ -30,10 +30,13 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/RepairWindow.axaml]
+[C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/ReportWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/RequestWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/StatisticsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/lonah/RiderProjects/PZ23huinya/PZ23/Windows/UserWindow.axaml]

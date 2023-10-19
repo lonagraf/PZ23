@@ -4,11 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PZ23.MainWindow"
-        Title="Главное окно"
-        Background="Pink">
+        Title="Авторизация"
+        >
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-    <ComboBox Name="AuthCmb" Width="150" Margin="0 0 0 10"/>
+    <ComboBox Name="AuthCmb" Width="150" Margin="0 0 0 10" />
     <TextBox Name="AuthTxt" Width="150" Margin="0 0 0 10" />
-    <Button Name="AuthBtn" Content="Вход"  Width="150" Height="27" Click="AuthBtn_OnClick"/>
+    <Button Name="AuthBtn" Content="Вход"  Width="150" Height="27" Click="AuthBtn_OnClick" Background="Lavender"/>
     </StackPanel>
 </Window>

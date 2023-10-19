@@ -1,5 +1,8 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using MsBox.Avalonia;
+using MsBox.Avalonia.Enums;
 using PZ23.Windows;
 
 namespace PZ23;
@@ -37,21 +40,32 @@ public partial class MainWindow : RequestWindow
         comboBox.ItemsSource = new[] { "Администратор", "Пользователь" };
         string selectedRole = comboBox.SelectedItem.ToString();
         string password = AuthTxt.Text;
-        if (selectedRole == "Администратор" && password == "admin")
+        try 
         {
-            AdminWindow adminWindow = new AdminWindow();
-            this.Hide();
-            adminWindow.Show();
+            if (selectedRole == "Администратор" && password == "admin")
+            {
+                AdminWindow adminWindow = new AdminWindow();
+                this.Hide();
+                adminWindow.Show();
+            }
+            else if (selectedRole == "Пользователь" && password == "user")
+            {
+                UserWindow userWindow = new UserWindow();
+                this.Hide();
+                userWindow.Show();
+            }
+            else
+            {
+                var box = MessageBoxManager.GetMessageBoxStandard("Ошибка",
+                    "Не правильный пароль", ButtonEnum.Ok);
+                var result = box.ShowAsync();
+            }
         }
-        else if (selectedRole == "Пользователь" && password == "user")
+        catch (Exception ex)
         {
-            UserWindow userWindow = new UserWindow();
-            this.Hide();
-            userWindow.Show();
-        }
-        else
-        {
-            
+            var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", 
+                "Ошибка " + ex, ButtonEnum.Ok);
+            var result = box.ShowAsync();
         }
     }
 }

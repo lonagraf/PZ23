@@ -9,5 +9,7 @@ public class Request
     public string Defect { get; set; }
     public string ProblemDescription { get; set; }
     public string Client { get; set; }
+    public string Employee { get; set; }
     public string RequestStatus { get; set; }
+    public string Priority { get; set; }
 }

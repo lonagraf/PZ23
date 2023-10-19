@@ -1,0 +1,24 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="200"
+        x:Class="PZ23.Windows.StatisticsWindow"
+        Title="Статистика">
+        <Grid>
+                <TextBlock>Кол-во выполненных заявок: </TextBlock>
+                <DataGrid Name="FinRequestsDataGrid" HorizontalAlignment="Left" x:CompileBindings="False" Margin="0 25 0 0">
+                        <DataGrid.Columns>
+                                <DataGridTextColumn Header="Выполненные заявки" Binding="{Binding AmountFinRequest}"/>
+                        </DataGrid.Columns>
+                </DataGrid>
+                <TextBlock HorizontalAlignment="Right">Статистика по типам неисправностей: </TextBlock>
+                <DataGrid Name="DefectStatisticDataGrid" HorizontalAlignment="Right" x:CompileBindings="False" Margin="0 25 0 0">
+                        <DataGrid.Columns>
+                                <DataGridTextColumn Header="Тип неисправности" Binding="{Binding DefectName}"/>
+                                <DataGridTextColumn Header="Кол-во" Binding="{Binding AmountDefects}"/>
+                        </DataGrid.Columns>
+                </DataGrid>
+                <Button Name="BackBtn" Width="100" Content="Назад" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="BackBtn_OnClick" Background="Lavender"/>
+        </Grid>
+</Window>

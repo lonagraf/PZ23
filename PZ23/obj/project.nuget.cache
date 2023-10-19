@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "N6cXs1PSyQmlCRMoS4gyJvyUdk2mZkJ5P+5/VPbu326Qg7tDzGPSROmR3/6QDTihlI3C7tk1qphTJx57YUy01Q==",
+  "dgSpecHash": "BdBwR5ztelsya3Ti9kijEX2A+XxBSKNLa3B5U67xv4thEWO6uZPDsnXNYgEcjU0Y3WeNQDGqxdpTQvXGwLdWDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lonah\\RiderProjects\\PZ23huinya\\PZ23\\PZ23.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,8 @@
     "C:\\Users\\lonah\\.nuget\\packages\\avalonia.themes.simple\\11.0.2\\avalonia.themes.simple.11.0.2.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\avalonia.win32\\11.0.2\\avalonia.win32.11.0.2.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\avalonia.x11\\11.0.2\\avalonia.x11.11.0.2.nupkg.sha512",
+    "C:\\Users\\lonah\\.nuget\\packages\\colortextblock.avalonia\\11.0.0-d1\\colortextblock.avalonia.11.0.0-d1.nupkg.sha512",
+    "C:\\Users\\lonah\\.nuget\\packages\\dialoghost.avalonia\\0.7.6\\dialoghost.avalonia.0.7.6.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\harfbuzzsharp\\2.8.2.3\\harfbuzzsharp.2.8.2.3.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\harfbuzzsharp.nativeassets.linux\\2.8.2.3\\harfbuzzsharp.nativeassets.linux.2.8.2.3.nupkg.sha512",
@@ -29,6 +31,8 @@
     "C:\\Users\\lonah\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "C:\\Users\\lonah\\.nuget\\packages\\markdown.avalonia.tight\\11.0.0-d1\\markdown.avalonia.tight.11.0.0-d1.nupkg.sha512",
+    "C:\\Users\\lonah\\.nuget\\packages\\messagebox.avalonia\\3.1.3\\messagebox.avalonia.3.1.3.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
@@ -63,6 +67,7 @@
     "C:\\Users\\lonah\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\system.objectmodel\\4.3.0\\system.objectmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\lonah\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\lonah\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",

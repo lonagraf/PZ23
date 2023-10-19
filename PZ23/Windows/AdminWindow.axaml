@@ -4,11 +4,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="PZ23.AdminWindow"
-        Title="AdminWindow"
-        Background="Pink">
+        Title="Администратор">
    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-        <Button Content="Добавить заявку" Width="150" Background="White" Click="AddRequestOnClick"/>
-        <Button Content="Все заявки" Width="150" Background="White" Margin="0 10 0 10" Click="RequestsOnClick"/>
-        <Button Content="Отчет" Width="150" Background="White" Click="Button_OnClick"/>
+        <Button Content="Добавить заявку" Width="150" Background="Lavender" Click="AddRequestOnClick"/>
+        <Button Content="Все заявки" Width="150" Background="Lavender" Margin="0 10 0 10" Click="RequestsOnClick"/>
+        <Button Content="Отчет" Width="150" Background="Lavender" Click="ReportOnClick"/>
+        <Button Content="Статистика" Width="150" Background="Lavender" Click="StatisticsOnClick" Margin="0 10 0 0"/>
     </StackPanel>
 </Window>
