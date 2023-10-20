@@ -36,12 +36,13 @@ public partial class MainWindow : RequestWindow
 
     private void AuthBtn_OnClick(object? sender, RoutedEventArgs e)
     {
+        try 
+        {
         var comboBox = this.FindControl<ComboBox>("AuthCmb");
         comboBox.ItemsSource = new[] { "Администратор", "Пользователь" };
         string selectedRole = comboBox.SelectedItem.ToString();
         string password = AuthTxt.Text;
-        try 
-        {
+
             if (selectedRole == "Администратор" && password == "admin")
             {
                 AdminWindow adminWindow = new AdminWindow();
@@ -64,7 +65,7 @@ public partial class MainWindow : RequestWindow
         catch (Exception ex)
         {
             var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", 
-                "Ошибка " + ex, ButtonEnum.Ok);
+                "Выберите роль!!!", ButtonEnum.Ok);
             var result = box.ShowAsync();
         }
     }
